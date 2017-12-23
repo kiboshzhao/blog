@@ -1,0 +1,29 @@
+{
+  "name": "blog2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo\"Error:no test specified\" && exit 1",
+    "start": "supervisor ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "co": "^4.6.0",
+    "cookie-parser": "^1.4.3",
+    "cookies": "^0.7.1",
+    "excel4node": "^1.2.1",
+    "express": "^4.15.4",
+    "markdown": "^0.5.0",
+    "mongoose": "^4.11.11",
+    "mysql": "^2.14.1",
+    "supervisor": "^0.12.0",
+    "swig": "^1.4.2",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {
+    "connect": "^3.6.3"
+  }
+}
